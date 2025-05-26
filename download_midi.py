@@ -43,6 +43,6 @@ if response.status_code == 200:
         writer.writerow(["檔案名稱", "下載連結"])  # 寫入 CSV 標題行
         writer.writerows(data)  # 寫入資料到 CSV 檔案
 
-    print("下載連結已儲存至 download_links.csv 檔案！")
+    print("下載連結已儲存至 download_links.csv 檔案了唷！")
 else:
     print("無法獲取網頁內容！")
